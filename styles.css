@@ -1,0 +1,62 @@
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-caculator{
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.my-caculator form input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5 );
+    background: transparent;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.my-caculator #display{
+    margin: 10px;
+    width: 95%;
+    font-size: 20px;
+    height: 50px;
+    background: transparent;
+    color: antiquewhite;
+    font-weight: 800;
+    outline: 0;
+    border:0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+#equal{
+    width: 145px;
+}
+
+.operator{
+    color: rgb(13, 107, 107);
+    background-color: blanchedalmond;
+}
+
